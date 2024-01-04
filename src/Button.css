@@ -1,0 +1,32 @@
+.custom-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-button.primary {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.custom-button.default {
+  background-color: #ecf0f1;
+  color: #333;
+}
+
+.custom-button.dashed {
+  border: 2px dashed #333;
+}
+
+.custom-button.text {
+  background-color: transparent;
+  color: #3498db;
+}
+
+.custom-button.link {
+  background-color: transparent;
+  color: #3498db;
+  text-decoration: underline;
+}
